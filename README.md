@@ -51,3 +51,16 @@ src/
 ```env
 VITE_GUARDIAN_API_KEY=api_key
 ```
+
+
+TODO
+- Виправити неправильні імпорти - це критично
+- Додати перевірку наявності API_KEY з помилкою
+- Було б добре інтегрувати React Query
+- Додати валідацію API відповіді (Zod)
+- Додати AbortController для скасування запитів
+- ~~Замінити window.location.reload() на refetch~~
+- Theme Context має дублювання коду
+- Додати мемоізацію компонентів
+- Створити окремий axios instance
+- Можна додати debounce для пошуку
